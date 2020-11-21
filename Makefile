@@ -33,7 +33,7 @@ package-helm:
 		( cd docs; \
 			helm package ../chart/helm3/sops-secrets-operator ; \
 			helm package ../chart/helm2/sops-secrets-operator ; \
-			helm repo index . --url https://isindir.github.io/sops-secrets-operator ) ; \
+			helm repo index . --url https://gozer.github.io/sops-secrets-operator ) ; \
 	}
 
 ## test-helm: test helm charts
